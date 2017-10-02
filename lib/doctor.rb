@@ -16,7 +16,7 @@ class Doctor
     @appointments
   end
 
-  def patient
+  def patients
     self.appointment.collect {|appointment| appointment.patient}
   end
 end
